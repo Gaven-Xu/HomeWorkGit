@@ -2,7 +2,7 @@ const packager = require("electron-packager");
 const package = require("./source/package.json");
 
 packager({
-    name: 'videoplayer',
+    name: 'HomeWork',
     dir: "./source",
     out: "./dist",
     icon: "./source/homework.ico",
