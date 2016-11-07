@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.line {
+	font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    border: none;
+    overflow: auto;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+.line>* {
+	height:inherit;
+	line-height: inherit;
+    float: left;
+	position: relative;
+}
+.th1,.th2,.td1,.td2{
+	text-indent: 5px;
+}
+.th1,.th2,.th3{
+	color:#fff;
+	background: #454545;
+}
+.line .th1, .line .td1 {
+    width: 20%;
+}
+.line .th2, .line .td2 {
+    width: 75%;
+}
+.line .th3, .line .td3 {
+	text-align: center;
+    width: 5%;
+}
+.line .td3,.line .addbtn {
+    color: #fff;
+	cursor:pointer;
+}
+.line .td3{
+	background: #de3333;
+}
+.line .addbtn {
+    background: #74de33;
+}
+.line-input{
+	height:21px;
+}
+.line-input input {
+	width: 100%;
+    height: inherit;
+    line-height: inherit;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0;
+    text-indent: 5px;
+}
+.td1,
+.td1 input{
+	background: rgb(209, 209, 209);
+}
+.td2,
+.td2 input{
+	background: rgb(221, 221, 221);
+}
+.handle-btns{
+	padding:10px;
+}
+.handle-btns>*{
+	float:left;
+	height:22px;
+	line-height: 22px;
+	padding:2px 5px;
+	margin:5px 0 0 5px;
+	font-size:13px;
+}
+.handle-btns .config-btn{
+	cursor:pointer;
+	background: #74de33;
+}
+.handle-btns .config-btn:hover{
+	background: #98e36b;
+}
+.handle-btns input{
+	width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
