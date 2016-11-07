@@ -1,0 +1,25 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "use to config gihub link for all students,and create a shell script file to pull their homework.While students push their homework to github, we can pull their homework by click this shell script file just for once.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaven-Xu/homeworks.git"
+  },
+  "keywords": [
+    "homework",
+    "check",
+    "shell",
+    "test"
+  ],
+  "author": "Gaven Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaven-Xu/homeworks/issues"
+  },
+  "homepage": "https://github.com/Gaven-Xu/homeworks#readme"
+}
